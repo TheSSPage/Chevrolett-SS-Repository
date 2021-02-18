@@ -1,37 +1,114 @@
-## Welcome to GitHub Pages
+<html>
+<head>
+<title>Chevrolet SS Repository</title>
+<Style>
+#header {
+	background-color: gray;
+	height: 175px;
+	width: 100%;
+}
+body {
+margin: 0;
+padding: 0;
+}
+div.header {
+	word-break: normal;
+	text-align: center;
+}
 
-You can use the [editor on GitHub](https://github.com/TheSSPage/Chevrolett-SS-Repository/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+#LogoArea {
+	width: 250px;
+	height: 100px;
+	background: url('SS.jpg');
+	
+}
+.navbar {
+  overflow: hidden;
+  border-radius: 15px;
+}
+.navbar a {
+  font-size: 20px;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+  border-radius: 15px;
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#footer {
+	background-color: gray;
+	height: 40px;
+	width: 100%;
+	color: #FFFFFF;
+	padding-top: 20px;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+}
 
-### Markdown
+div.footer {
+	word-break: normal;
+	text-align: justify;
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+.container {
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+}
+.mainArea {
+	background-color: #000000;
+	padding: 20px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+div.main {
+	word-break: normal;
+	text-align: justify;
+	font-size: 20px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</Style>
+</head>
+<body>
+	<div id="header">
+		<img src="SS.jpg">
+		<br>		
+			<div class="container">
+				<div class=header>
+					<Div class="navbar"> 
+						<a href="home.html"> Home </a>
+						<a href="main.html"> Main Menu </a>
+					</div>
+				</div>
+		</div>
+	</div>
 
-```markdown
-Syntax highlighted code block
+<br>
+<div id="mainArea">
+	<div class="container">
+	<div class=main>
+	Welcome to the Chevrolet SS Repository. This is an enthusiast developed website that contains collective knowledge from various sources about the Chevrolet SS. The Chevrolet SS was a production run vehicle from General Motors under Chevrolet from the model year 2014-2017. 
+	</div>
+	<br>
+	<img src="Chevrolet SS Home.jpg" style="width:60%">
+	</div>
+</div>
 
-# Header 1
-## Header 2
-### Header 3
+<div id="footer">
+	
+	<div class="container">
+	<div class=footer>This is a non-commercial personal web site put together for informational and educational purposes only, by and for Chevrolet SS enthusiasts and owners. It is not associated in any way with Chevrolet or General Motors. Every attempt has been made to make certain that the information on this web site is as accurate as possible. We are not responsible for typographical or other unintentional errors.
+	</div>
+	</div>
+	
+</div> 
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TheSSPage/Chevrolett-SS-Repository/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</body
+</html>
